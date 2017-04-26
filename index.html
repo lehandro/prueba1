@@ -1,0 +1,108 @@
+<html>
+    <head><meta charset="UTF-8">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Merienda+One');
+      @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+        header .banner{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          width: 100%;
+          color: white;
+          text-align: center;
+          text-shadow: 1px 2px black;
+      }
+        .banner .banner_text1{
+        font-family: 'Merienda One', cursive;
+        font-size: 100px;
+      }
+      .contenedor{
+          margin: 15px 15px;
+          text-align: center;
+      }
+      .formulario{
+          background-color: grey;
+          margin: auto;
+          padding: 15px;
+      }
+      .titulo{
+          font-family: 'Fjalla one';
+      }
+      .pie{
+          background-color: black;
+          padding: 1%;
+      }
+    </style>
+    <body>
+      <header>
+          <div class="container-fluid col-lg-12 col-md-12 col-sm-12" class="img">
+              <div class="row"><img src="https://www.reasonwhy.es/sites/default/files/evolucion-paginas-web-internet-reasonwhy.es__0.jpg" alt="" class="img-responsive">
+              </div>
+              <div class="banner">
+                  <h1 class="banner_text1 img-responsive">DISEÑO WEB</h1>
+              </div>
+              <!--/*<div class="nav">
+                  <nav class="menu">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Acerca de MI</a></li>
+                      </ul>
+                  </nav>
+              </div>/-->
+          </div>
+      </header>
+         <div class="container">
+            <div class="row">
+              <div class=" contenedor col-lg-12 col-md-12 col-sm-12">
+                  <div class="html col-lg-4 col-md-4 col-sm-12">
+                      <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="" class="img-responsive img-rounded">
+                      <h3>HTML</h3>
+                  </div>
+                  <div class="css col-lg-4 col-md-4 col-sm-12">
+                      <img src="http://hguochen.com/static/img/tech/css3.png" alt="" class="img-responsive img-rounded">
+                      <h3>CSS</h3>
+                  </div>
+                  <div class="js col-lg-4 col-md-4 col-sm-12">
+                      <img src="http://3con14.biz/i2017bto2/_data/programacion/javascript/javascript-logo.png" alt="" class="img-responsive img-rounded">
+                      <h3>JAVASCRIPT</h3>
+                  </div>
+              </div>
+           </div>
+       </div>
+       <div class="container-fluid formulario">
+           <div class="row">
+             <div class="titulo"><h2><b>CONTACTO</b></h2></div>
+               <div class="formulario col-lg-12 col-md-12 col-sm-12">
+                   <div class="form-group col-lg-4">
+             <label for="name">Nombre</label>
+             <input type="text" class="form-control" id="nombre" placeholder="Nombre" maxlength="50" minlength="50">
+                 </div>
+                  <div class="form-group col-lg-4">
+                       <label for="name">Apellido</label>
+                       <input type="text" class="form-control" id="apellido" placeholder="Apellido" maxlength="50" minlength="50">
+                 </div>
+                  <div class="form-group col-lg-4">
+                       <label for="exampleInputEmail1">Email</label>
+                       <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" maxlength="50" minlength="50">
+                  </div>
+                   <button type="submit" class="btn btn-primary">Enviar</button>
+                   <button type="submit" class="btn btn-default">Limpiar</button>
+           </div>
+       </div>
+       <footer class="row">
+           <div class="pie container-fluid">
+             <p>Todos los derechos reservados &copy</p>
+           </div>
+       </footer>
+    </body>
+</html>
